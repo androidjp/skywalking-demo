@@ -1,0 +1,8 @@
+server:
+  port: 8000
+
+dubbo:
+  application:
+    name: demo-webapp
+  registry:
+    address: zookeeper://192.168.204.128:2181
